@@ -4,6 +4,11 @@
         <Property name="log-path">/data/logs/electronic-payments-api</Property>
     </Properties>
     <Appenders>
+        <!--Added by Evans K F Chikuni 30/04/2018 -->
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout
+                pattern="[%-5level] %d{HH:mm:ss.SSS} %logger{36}.%M() - %msg%n"/>
+        </Console>
         <Routing name="RoutingAppender">
             <Routes pattern="$${ctx:ROUTINGKEY}">
 
@@ -39,8 +44,13 @@
 
     </Appenders>
     <Loggers>
+        <Root level="ERROR">
+            <AppenderRef ref="console"/>
+        </Root>
         <Logger name="com.econetwireless" level="info" additivity="false">
             <AppenderRef ref="RoutingAppender" level="info"/>
+            <!--Added by Evans K F Chikuni 30/04/2018 -->
+            <AppenderRef ref="console" level="all"/>
         </Logger>
 
     </Loggers>
