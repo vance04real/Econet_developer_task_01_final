@@ -9,7 +9,18 @@
         <relativePath>../intelligent-network-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+      <!--Added by Evans K F Chikuni 30/04/2018 -->
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>log4j2.xml</include>
+                </includes>
+            </resource>
+           
+        </resources>
+    </build>
     <artifactId>intelligent-network-api</artifactId>
     <dependencies>
         <dependency>
@@ -19,5 +30,5 @@
         </dependency>
     </dependencies>
 
-
+    
 </project>
