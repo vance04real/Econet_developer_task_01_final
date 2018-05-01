@@ -1,5 +1,6 @@
 package com.econetwireless.epay.domain;
 
+import java.io.Serializable;
 import javax.persistence.*;
 
 /**
@@ -7,7 +8,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "e_req_partner")
-public class RequestPartner {
+public class RequestPartner implements Serializable {
     @Id
     private Long id;
     @Basic(fetch = FetchType.LAZY)
