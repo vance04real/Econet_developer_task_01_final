@@ -56,9 +56,9 @@
                     <include>log4j2.xml</include>       
                 </includes>
             </resource>
-            <resource>
+<!--            <resource>
                 <directory>src/main/resources/testfiles</directory>
-            </resource>
+            </resource>-->
         </resources>
         <finalName>electronic-payments-api</finalName>
         <plugins>
