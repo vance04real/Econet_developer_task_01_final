@@ -52,7 +52,12 @@
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
-                <includes><include>log4j2.xml</include></includes>
+                <includes>
+                    <include>log4j2.xml</include>       
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources/testfiles</directory>
             </resource>
         </resources>
         <finalName>electronic-payments-api</finalName>
@@ -76,6 +81,15 @@
                     </httpConnector>
                 </configuration>
             </plugin>
+            <!-- Temporary fix-->
+<!--            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
+                </configuration>
+            </plugin>-->
         </plugins>
     </build>
 
