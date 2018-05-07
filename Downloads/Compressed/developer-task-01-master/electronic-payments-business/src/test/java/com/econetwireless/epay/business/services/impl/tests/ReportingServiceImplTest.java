@@ -11,6 +11,9 @@ import org.mockito.MockitoAnnotations;
 import com.econetwireless.epay.business.services.impl.ReportingServiceImpl;
 import com.econetwireless.epay.dao.subscriberrequest.api.SubscriberRequestDao;
 
+/**
+ * Evans K F Chikuni 07/05/2018
+ */
 public class ReportingServiceImplTest {
 
 	private ReportingServiceImpl reportingService;

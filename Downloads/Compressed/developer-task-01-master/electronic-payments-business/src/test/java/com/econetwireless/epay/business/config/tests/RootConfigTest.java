@@ -9,14 +9,16 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import com.econetwireless.epay.business.config.RootConfig;
 
+/**
+ * Evans K F Chikuni 
+ */
+
 public class RootConfigTest {
 
-    /**
-     * 
-     */
+   
 	@Test
 	public void test() {
-		ApplicationContext context=new AnnotationConfigApplicationContext(RootConfig.class);
+		ApplicationContext context = new AnnotationConfigApplicationContext(RootConfig.class);
 		assertNotNull(context);
 	}
 

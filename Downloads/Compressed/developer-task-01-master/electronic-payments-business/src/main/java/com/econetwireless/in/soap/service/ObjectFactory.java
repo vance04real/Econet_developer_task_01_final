@@ -37,14 +37,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link EnquireBalance }
-     * 
-     */
-    public EnquireBalance createEnquireBalance() {
-        return new EnquireBalance();
-    }
-
-    /**
      * Create an instance of {@link CreditResponse }
      * 
      */
@@ -53,27 +45,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CreditRequest }
+     * Create an instance of {@link EnquireBalance }
      * 
      */
-    public CreditRequest createCreditRequest() {
-        return new CreditRequest();
-    }
-
-    /**
-     * Create an instance of {@link EnquireBalanceResponse }
-     * 
-     */
-    public EnquireBalanceResponse createEnquireBalanceResponse() {
-        return new EnquireBalanceResponse();
-    }
-
-    /**
-     * Create an instance of {@link CreditSubscriberAccount }
-     * 
-     */
-    public CreditSubscriberAccount createCreditSubscriberAccount() {
-        return new CreditSubscriberAccount();
+    public EnquireBalance createEnquireBalance() {
+        return new EnquireBalance();
     }
 
     /**
@@ -85,11 +61,35 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link EnquireBalanceResponse }
+     * 
+     */
+    public EnquireBalanceResponse createEnquireBalanceResponse() {
+        return new EnquireBalanceResponse();
+    }
+
+    /**
      * Create an instance of {@link BalanceResponse }
      * 
      */
     public BalanceResponse createBalanceResponse() {
         return new BalanceResponse();
+    }
+
+    /**
+     * Create an instance of {@link CreditSubscriberAccount }
+     * 
+     */
+    public CreditSubscriberAccount createCreditSubscriberAccount() {
+        return new CreditSubscriberAccount();
+    }
+
+    /**
+     * Create an instance of {@link CreditRequest }
+     * 
+     */
+    public CreditRequest createCreditRequest() {
+        return new CreditRequest();
     }
 
     /**

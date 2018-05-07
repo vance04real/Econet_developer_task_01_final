@@ -11,6 +11,9 @@ import org.mockito.MockitoAnnotations;
 import com.econetwireless.epay.business.services.impl.PartnerCodeValidatorImpl;
 import com.econetwireless.epay.dao.requestpartner.api.RequestPartnerDao;
 
+/**
+ * Evans K F Chikuni 07/05/2018
+ */
 public class PartnerCodeValidatorImplTest {
 
 PartnerCodeValidatorImpl partnerCodeValidatorImpl;

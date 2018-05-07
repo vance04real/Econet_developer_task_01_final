@@ -7,6 +7,9 @@ import org.mockito.MockitoAnnotations;
 import com.econetwireless.epay.business.integrations.impl.ChargingPlatformImpl;
 import com.econetwireless.in.soap.service.IntelligentNetworkService;
 
+/**
+ * Evans K F Chikuni 07/05/2018
+ */
 public class ChargingPlatformImplTest {
 
 	private ChargingPlatformImpl chargingPlatformImpl;

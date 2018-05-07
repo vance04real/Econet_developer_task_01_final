@@ -10,6 +10,9 @@ import com.econetwireless.epay.dao.subscriberrequest.api.SubscriberRequestDao;
 import com.econetwireless.epay.domain.SubscriberRequest;
 import com.econetwireless.utils.pojo.INBalanceResponse;
 
+/**
+ * Evans K F Chikuni 07/05/2018
+ */
 public class EnquiriesServiceImplTest {
 
 	private EnquiriesServiceImpl enquiriesServiceImpl;
