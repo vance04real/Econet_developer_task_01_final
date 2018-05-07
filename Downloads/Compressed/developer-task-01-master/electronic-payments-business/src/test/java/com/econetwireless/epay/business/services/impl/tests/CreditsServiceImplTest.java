@@ -40,13 +40,16 @@ public class CreditsServiceImplTest {
         partnerCode = "hot-recharge";
 
     }
-
+    
+/**@
+ * 
+ */
     @Test(expected = Exception.class)
     public void testCreditMethod() {
         final AirtimeTopupRequest airtimeTopupRequest = new AirtimeTopupRequest();
         airtimeTopupRequest.setPartnerCode(partnerCode);
         airtimeTopupRequest.setReferenceNumber("TOPUP-REF-0123");
-        airtimeTopupRequest.setAmount(1.11);
+        airtimeTopupRequest.setAmount(2.51);
         airtimeTopupRequest.setMsisdn("772111357");
         creditsService.credit(airtimeTopupRequest);
 

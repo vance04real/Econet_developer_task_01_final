@@ -1,3 +1,4 @@
+
 package com.econetwireless.epay.business.config.tests;
 
 import static org.junit.Assert.*;
@@ -10,6 +11,9 @@ import com.econetwireless.epay.business.config.RootConfig;
 
 public class RootConfigTest {
 
+    /**
+     * 
+     */
 	@Test
 	public void test() {
 		ApplicationContext context=new AnnotationConfigApplicationContext(RootConfig.class);
